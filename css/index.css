@@ -83,8 +83,8 @@ a.name {
 }
 .main .site .logo {
   margin: 0 auto;
-  width: 90px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 80px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,7 +178,7 @@ a.name {
   font-size: 14px;
 }
 .main.page .article-list .article .avatar {
-  width: 30px;
+  width: 20px;
   height: 20px;
   margin-right: 10px;
   border-radius: 20px;
@@ -266,7 +266,7 @@ a.name {
   font-size: 14px;
 }
 .main.article .info .avatar {
-  width: 30px;
+  width: 20px;
   height: 20px;
   margin-right: 10px;
   border-radius: 20px;
@@ -467,8 +467,8 @@ a.name {
 }
 .main.article .author .avatar {
   margin: 0 auto;
-  width: 90px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 70px;
   background-size: cover;
   background-repeat: no-repeat;
