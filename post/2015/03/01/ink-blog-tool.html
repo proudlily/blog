@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <meta name="keywords" content="linux,">
+        <meta name="description" content="简洁的静态博客构建工具 —— 纸小墨（InkPaper）">
+        <link rel="stylesheet" href="0.0/css/index.css">
+        <link rel="stylesheet" href="0.0/css/github.css">
+        <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
+    </head>
+    <body>
+        <article class="container">
+            <a class="index" href="0.0/">榴白手扎</a>
+<ul class="menu">
+    <li class="menu-item"><a href="0.0/archive.html">归档</a></li>
+    <li class="menu-item"><a href="0.0/tag.html">标签</a></li>
+    <li class="menu-item"><a href="0.0/atom.xml">订阅</a></li>
+</ul>
+
+            <article class="main article">
+                <h1 class="title">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(0.0/images/lily.jpeg);"></span>
+                    <a class="name" href="0.0/about.me.html">榴白</a>
+                    <span class="date" data-time="1425204000">
+                        <span class="from"></span>
+                        <span class="date" data-time="1435975200">(<span class="from"></span> 更新)</span>
+                    </span>
+                    <span class="tags"><a class="tag" href="0.0/tag/linux/index.html">linux</a></span>
+                </section>
+                <article class="content"><h2>纸小墨简介</h2>
+
+<p>纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。优点是无依赖跨平台，配置简单构建快速，注重于简洁易用与排版优化。</p>
+
+<p><img src="/images/loader.gif" data-src="0.0/images/example.png" alt="纸小墨 - 简洁的静态博客构建工具" /></p>
+
+<h3>开始上手</h3>
+
+<ul>
+<li>下载并解压 <a href="http://www.inkpaper.io/">Ink</a>，运行命令 <code>ink preview</code></li>
+<li>使用浏览器访问 <code>http://localhost:8000</code> 预览</li>
+</ul>
+
+<h3>配置网站</h3>
+
+<p>编辑<code>config.yml</code>，使用如下格式</p>
+
+<pre><code class="language-yaml">site:
+    title: 网站标题
+    subtitle: 网站子标题
+    limit: 每页可显示的文章数目
+    theme: 网站主题目录
+    disqus: Disqus评论插件账户名
+    root: 网站根路径 #可选
+    lang: 网站语言 #支持en, zh，可在theme/lang.yml配置
+authors:
+    作者ID:
+        name: 作者名称
+        intro: 作者简介
+        avatar: 作者头像路径
+build:
+    port: 预览端口
+    copy:
+        - 构建时将会复制的目录/文件
+    publish: |
+        ink publish 命令将会执行的脚本
+</code></pre>
+
+<h3>创建文章</h3>
+
+<p>在<code>source</code>目录中建立任意<code>.md</code>文件（可置于子文件夹），使用如下格式</p>
+
+<pre><code class="language-yaml">title: 文章标题
+date: 年-月-日 时:分:秒 #创建时间，可加时区如&quot; +0800&quot;
+update: 年-月-日 时:分:秒 #更新时间，可选，可加时区如&quot; +0800&quot;
+author: 作者ID
+cover: 题图链接 #可选
+draft: true #草稿，可选
+top: true #置顶文章，可选
+preview: 文章预览，也可在正文中使用&lt;!--more--&gt;分割 #可选
+tag: #可选
+    - 标签1
+    - 标签2
+
+---
+
+Markdown格式的正文
+</code></pre>
+
+<h3>发布博客</h3>
+
+<ul>
+<li>在博客目录下运行<code>ink publish</code>命令自动构建博客并发布</li>
+<li>或运行<code>ink build</code>命令将生成的<code>public</code>目录下的内容手动部署</li>
+</ul>
+
+<blockquote>
+<p>Tips: 当使用<code>ink preview</code>命令时，<code>source</code>目录中文件发生变化，会自动重新构建博客，刷新浏览器以更新</p>
+</blockquote>
+
+<h2>定制支持</h2>
+
+<h3>修改主题</h3>
+
+<p>默认主题使用coffee, less编写，修改对应文件后，需要在<code>theme</code>目录下运行<code>gulp</code>命令重新编译，使用<code>ink build</code>命令构建时默认将会复制js, css目录到<code>public</code>目录下。</p>
+
+<p>页面包含<code>page.html</code>（文章列表）及<code>article.html</code>（文章）等，所有页面均支持<a href="http://golang.org/pkg/html/template/">GO语言HTML模板</a>语法，可引用变量。</p>
+
+<h3>添加页面</h3>
+
+<p>在<code>source</code>目录下创建的任意<code>.html</code>文件将被复制，这些文件中可引用<code>config.yml</code>中site字段下的所有变量。</p>
+
+<h3>博客迁移(Beta)</h3>
+
+<p>Ink提供简单的Jeklly/Hexo博客文章格式转换，使用命令：</p>
+
+<pre><code class="language-shell">ink convert /path/_posts
+</code></pre>
+
+<h3>源码编译</h3>
+
+<p>本地运行</p>
+
+<ol>
+<li>配置<a href="http://golang.org/doc/install">GO</a>语言环境</li>
+<li>运行命令<code>go get github.com/InkProject/ink</code>，编译并获取ink</li>
+<li>运行命令<code>ink preview $GOPATH/src/github.com/InkProject/ink/template</code>，预览博客</li>
+</ol>
+
+<p>Docker构建（示例）</p>
+
+<ol>
+<li>Clone源码 <code>git clone git@github.com:InkProject/ink.git</code></li>
+<li>源码目录下构建镜像<code>docker build -t ink .</code></li>
+<li>运行容器<code>docker run -p 8000:80 ink</code></li>
+</ol>
+
+<h2>开源协议</h2>
+
+<p><a href="https://creativecommons.org/licenses/by-nc/4.0/">CC Attribution-NonCommercial License 4.0</a></p>
+
+<h2>反馈建议</h2>
+
+<p>请报告至 <a href="https://github.com/InkProject/ink/issues">https://github.com/InkProject/ink/issues</a></p>
+
+<h2>更新历史</h2>
+
+<ul>
+<li>[2015-08-15] 一些Bug修复，新增RSS订阅支持，主题改善</li>
+<li>[2015-07-04] 数项Bug修复与主题改善，支持置顶，多语言，子模板</li>
+<li>[2015-06-04] 编译更多平台版本，增加标签与存档页</li>
+<li>[2015-03-01] Beta版本，基础功能完成</li>
+</ul>
+
+<h2>更新计划</h2>
+
+<ul>
+<li>排版深度优化</li>
+<li>页面SEO优化</li>
+<li>扩展与插件支持</li>
+</ul>
+
+<h2>他们正在使用</h2>
+
+<ul>
+<li><a href="http://www.inkpaper.io/blog/">http://www.inkpaper.io/blog/</a></li>
+<li><a href="https://hyper.sh/blog/">https://hyper.sh/blog/</a></li>
+<li><a href="http://wangsiyi.net/">http://wangsiyi.net/</a></li>
+<li><a href="http://lubia.cn/">http://lubia.cn/</a></li>
+</ul>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(0.0/images/lily.jpeg);"></div>
+                    <a class="name" href="0.0/about.me.html">榴白</a>
+                    <div class="intro">触摸光线，你必须通过阴影之下</div>
+                </section>
+                <section class="recommend">
+                    
+                    <section class="nav prev">
+                        <div class="head">上篇文章</div>
+                        <a class="link" href="0.0/post/2015/03/01/ink-blog-tool-en.html">An Elegant Static Blog Generator —— InkPaper</a>
+                    </section>
+                    
+                    
+                </section>
+                <section id="disqus_thread"></section>
+            </article>
+        </article>
+        <footer class="footer">
+    <span class="copyright">
+        榴白手扎 ©
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
+</footer>
+
+        <script src="0.0/js/jquery-1.11.2.min.js"></script>
+        <script src="0.0/js/highlight.pack.js"></script>
+        <script src="0.0/js/jquery.unveil.js"></script>
+        <script src="0.0/js/index.js"></script>
+        <script type="text/javascript">
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//somebody.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+    </body>
+</html>
