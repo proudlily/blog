@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <meta name="keywords" content="git,">
+        <meta name="description" content="用github搭建博客">
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/github.css">
+        <title>用github搭建博客</title>
+    </head>
+    <body>
+        <article class="container">
+            <a class="index" href="/">榴白手扎</a>
+<ul class="menu">
+    <li class="menu-item"><a href="/archive.html">归档</a></li>
+    <li class="menu-item"><a href="/tag.html">标签</a></li>
+    <li class="menu-item"><a href="/atom.xml">订阅</a></li>
+</ul>
+
+            <article class="main article">
+                <h1 class="title">用github搭建博客</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(/images/lily.jpeg);"></span>
+                    <a class="name" href="/about.me.html">榴白</a>
+                    <span class="date" data-time="1425204000">
+                        <span class="from"></span>
+                        <span class="date" data-time="1435975200">(<span class="from"></span> 更新)</span>
+                    </span>
+                    <span class="tags"><a class="tag" href="/tag/git/index.html">git</a></span>
+                </section>
+                <article class="content"><h3>前传</h3>
+
+<p>我晕，实在是好累，没有什么精神做事情。（其实许多我不会。）</p>
+
+<h3>博客说明</h3>
+
+<p>仿照 <a href="http://www.inkpaper.io/">Ink</a>搭建的博客的。额，还在0.0猫叔的帮助下。</p>
+
+<h3>开始上手(搭建博客的过程)</h3>
+
+<blockquote>
+<ol>
+<li>申请一个 github,做仓库repository</li>
+<li><code>#git branch gh-pages</code>    //在master分支下面新建一个gh-pages分支</li>
+<li><code>#git checkout gh-pages</code>    //切换到新建的gh-pages分支</li>
+<li><code>#git rm -rf .</code>       //由于master分支和gh-pages分支里面的内容完全不同，所以首先清空了所有文件</li>
+<li><code>#git add .</code>    //跟踪自己定义的文件</li>
+<li><code>#git commit -m &quot;Create gh-pages branch via Github&quot;</code>   //提交本次修改<br /></li>
+<li><code>#git checkout -b gh-pages origin/gh-pages</code> //切换分支</li>
+<li><code># git push origin gh-pages</code></li>
+</ol>
+</blockquote>
+
+<h3>学习反思</h3>
+
+<p>人要经常反省。</p>
+
+<p>比如这个 [博客]（<a href="http://www.cnblogs.com/yuanzm/p/3945814.html#commentform）">http://www.cnblogs.com/yuanzm/p/3945814.html#commentform）</a> 博主，把事情分析地清楚，我才懂得。也是懂得，才能清楚。不可以再一股脑地蛮干了，要耐心，静心，查资料，分析。不能做伸手党。</p>
+
+<p>也不是你准备做什么东西，什么也准备好了，然后等你轻轻挥挥手。你就伟大了。并不是这样子的。一句话是，不要忘记自己的梦想。</p>
+
+<p>对于程序这条路，我的感觉是，不要怕辛苦，经常看英文文档。（你并没有做了什么，你要知道）对于前辈的话语，良药苦口利于病。反省自己是为了什么，为了完成任务么？还是。。。</p>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(/images/lily.jpeg);"></div>
+                    <a class="name" href="/about.me.html">榴白</a>
+                    <div class="intro">透明就看不到自己了.</div>
+                </section>
+                <section class="recommend">
+                    
+                    
+                    <section class="nav next">
+                        <div class="head">下篇文章</div>
+                        <a class="link" href="/post/2015/03/01/ink-blog-tool.html">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</a>
+                    </section>
+                    
+                </section>
+                <section id="disqus_thread"></section>
+            </article>
+        </article>
+        <footer class="footer">
+    <span class="copyright">
+        榴白手扎 ©
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
+</footer>
+
+        <script src="/js/jquery-1.11.2.min.js"></script>
+        <script src="/js/highlight.pack.js"></script>
+        <script src="/js/jquery.unveil.js"></script>
+        <script src="/js/index.js"></script>
+        <script type="text/javascript">
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//somebody.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+    </body>
+</html>

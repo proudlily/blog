@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
-  <title>榴白の杂记 · 手扎</title>
+  <title>榴白手扎</title>
   <id>http://proudlily.github.io/0.0/</id>
-  <updated>2015-08-26T15:23:26+08:00</updated>
+  <updated>2015-08-26T17:11:56+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
   <link href="http://proudlily.github.io/0.0/"></link>
   <author>
-    <name>榴白の杂记 · 手扎</name>
+    <name>榴白手扎</name>
   </author>
   <entry>
-    <title>An Elegant Static Blog Generator —— InkPaper</title>
+    <title>用github搭建博客</title>
     <updated>2015-07-04T10:00:00+08:00</updated>
-    <id>tag:,2015-07-04:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool-en.html</id>
-    <content type="html">InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool-en.html"></link>
+    <id>tag:,2015-07-04:/proudlily.github.io/0.0/post/2015/03/01/github_blog.html</id>
+    <content type="html">将你的github仓库部署到github pages</content>
+    <link href="http:/proudlily.github.io/0.0/post/2015/03/01/github_blog.html"></link>
     <author>
       <name>榴白</name>
     </author>
