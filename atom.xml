@@ -1,58 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
-  <id>http://proudlily.github.io/0.0/</id>
-  <updated>2015-09-06T17:17:12+08:00</updated>
+  <id>http://www.inkpaper.io/blog</id>
+  <updated>2015-11-30T18:42:45+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
-  <link href="http://proudlily.github.io/0.0/"></link>
+  <link href="http://www.inkpaper.io/blog"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
   <entry>
-    <title>游海记</title>
-    <updated>2015-09-01T16:20:00+08:00</updated>
-    <id>tag:,2015-09-01:/proudlily.github.io/0.0/post/2015/09/01/ocean.html</id>
-    <content type="html">白裤子廖落的中年男人，晃着车钥，脸上有点羞涩又有点茫然，芯子里仍然是少年。他安静地等着他的心上人，像等那无从等待的好运气降临，也许等得来，多半又等不来</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/09/01/ocean.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>小诗</title>
-    <updated>2015-08-29T19:42:00+08:00</updated>
-    <id>tag:,2015-08-29:/proudlily.github.io/0.0/post/2015/08/29/poem.html</id>
-    <content type="html">旧时少年</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/08/29/poem.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>日记</title>
-    <updated>2015-08-27T09:46:00+08:00</updated>
-    <id>tag:,2015-08-27:/proudlily.github.io/0.0/post/2015/08/27/日记.html</id>
-    <content type="html">生活总是让我们遍体鳞伤，但到后来，那些受伤的地方一定会变成我们最强壮的地方。——《老人与海》</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/08/27/日记.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>用github搭建博客</title>
-    <updated>2015-08-26T16:54:00+08:00</updated>
-    <id>tag:,2015-08-26:/proudlily.github.io/0.0/post/2015/08/26/github_blog.html</id>
-    <content type="html">将你的github仓库部署到github pages</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/08/26/github_blog.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
-    <updated>2015-07-04T10:00:00+08:00</updated>
-    <id>tag:,2015-07-04:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool.html</id>
+    <updated>2015-11-06T10:00:00+08:00</updated>
+    <id>tag:,2015-11-06:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html</id>
     <content type="html">纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。优点是无依赖跨平台，配置简单构建快速，注重简洁易用与排版优化</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool.html"></link>
+    <link href="http:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>An Elegant Static Blog Generator —— InkPaper</title>
+    <updated>2015-11-06T10:00:00+08:00</updated>
+    <id>tag:,2015-11-06:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool-en.html</id>
+    <content type="html">InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme</content>
+    <link href="http:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool-en.html"></link>
     <author>
       <name>榴白</name>
     </author>

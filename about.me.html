@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="/0.0/css/global.css">
-    <link rel="stylesheet" href="/0.0/css/index.css">
-    <title>ABOUT</title>
-</head>
-<body>
-<div class="container">
-    <a class="index" href="/0.0/">榴白の杂记 · 手扎</a>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="/bundle/index.css">
+        <title>关于</title>
+    </head>
+    <body>
+        <div class="container">
+            <a class="index" href="/">榴白の杂记 · 手扎</a>
 <ul class="menu">
-    <li class="menu-item"><a href="/0.0/archive.html">归档</a></li>
-    <li class="menu-item"><a href="/0.0/tag.html">标签</a></li>
-    <li class="menu-item"><a href="/0.0/atom.xml">订阅</a></li>
+    <li class="menu-item"><a href="/archive.html">归档</a></li>
+    <li class="menu-item"><a href="/tag.html">标签</a></li>
+    <li class="menu-item"><a href="/atom.xml">订阅</a></li>
 </ul>
+<script type="text/javascript">
+    conn = new WebSocket('ws://' + location.host + '/live');
+    conn.onmessage = function(event) {
+        if (event.data === 'change') {
+            setTimeout(function() {
+                window.location.reload();
+            }, 100);
+        }
+    }
+</script>
 
-    <div class="main page about">
-        <div class="header site">
-            <div class="logo" style="background-image: url(/0.0/images/lily.jpeg);"></div>
-            <div class="title">榴白の杂记 · 手扎</div>
-            <div class="subtitle">talk is less,show me the code!</div>
+            <div class="main page about">
+                <div class="header site">
+                    <div class="logo" style="background-image: url(/images/lily.jpeg);"></div>
+                    <div class="title">榴白の杂记 · 手扎</div>
+                    <div class="subtitle">talk is less,show me the code!</div>
+                </div>
+                <div class="content">
+                    <h3>猫叔 & iMeoer</h3>
+                    <p>代码，美术，音乐与二次元</p>
+                    <p>http://www.inkpaper.io/blog</p>
+                </div>
+            </div>
         </div>
-        <div class="content">
-            <h3>榴白</h3>
-            <p>Programmer，咖啡&跑步</p>
-            <p>Github：<a href="https://github.com/proudlily">https://github.com/proudlily</a></p>
-        </div>
-    </div>
-</div>
-<div class="footer">
+        <div class="footer">
             <span class="copyright">
                 榴白の杂记 · 手扎 ©
                 <script type="text/javascript">
                     document.write(new Date().getFullYear());
                 </script>
             </span>
-    <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
-</div>
-</body>
+            <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
+        </div>
+    </body>
 </html>

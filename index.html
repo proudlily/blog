@@ -6,22 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
         <meta name="keywords" content="榴白の杂记 · 手扎, talk is less,show me the code!">
         <meta name="description" content="talk is less,show me the code!">
-        <link rel="stylesheet" href="/0.0/css/index.css">
+        <link rel="stylesheet" href="/bundle/index.css">
         <title>榴白の杂记 · 手扎</title>
     </head>
     <body>
         <article class="container">
-            <a class="index" href="/0.0/">榴白の杂记 · 手扎</a>
+            <a class="index" href="/">榴白の杂记 · 手扎</a>
 <ul class="menu">
-    <li class="menu-item"><a href="/0.0/archive.html">归档</a></li>
-    <li class="menu-item"><a href="/0.0/tag.html">标签</a></li>
-    <li class="menu-item"><a href="/0.0/atom.xml">订阅</a></li>
+    <li class="menu-item"><a href="/archive.html">归档</a></li>
+    <li class="menu-item"><a href="/tag.html">标签</a></li>
+    <li class="menu-item"><a href="/atom.xml">订阅</a></li>
 </ul>
+<script type="text/javascript">
+    conn = new WebSocket('ws://' + location.host + '/live');
+    conn.onmessage = function(event) {
+        if (event.data === 'change') {
+            setTimeout(function() {
+                window.location.reload();
+            }, 100);
+        }
+    }
+</script>
 
             <article class="main page">
                 <header class="header site">
                     
-                        <img class="logo" src="/0.0/images/lily.jpeg" />
+                        <img class="logo" src="/images/lily.jpeg" />
                         <h1 class="title">榴白の杂记 · 手扎</h1>
                         <h2 class="subtitle">talk is less,show me the code!</h2>
                     
@@ -29,86 +39,35 @@
                 <ul class="article-list">
                     
                     <li class="article">
-                        <a class="title" href="/0.0/post/2015/09/01/ocean.html">游海记</a>
-                        <div class="cover" style="background-image:url(/0.0/images/ocean/flower.jpg);"></div>
-                        <section class="preview">白裤子廖落的中年男人，晃着车钥，脸上有点羞涩又有点茫然，芯子里仍然是少年。他安静地等着他的心上人，像等那无从等待的好运气降临，也许等得来，多半又等不来...</section>
-                        <section class="info">
-                            <span class="avatar" style="background-image: url(/0.0/images/lily.jpeg);"></span>
-                            <a class="name" href="/0.0/about.me.html">榴白</a>
-                            <span class="date" data-time="1441088340">
-                                <span class="from"></span>
-                                <span class="date" data-time="1441095600">(<span class="from"></span> 更新)</span>
-                            </span>
-                            <span class="tags">
-                            <a class="tag" href="/0.0/tag/%e6%b8%b8%e8%ae%b0/index.html">游记</a>
-                            </span>
-                        </section>
-                    </li>
-                    
-                    <li class="article">
-                        <a class="title" href="/0.0/post/2015/08/29/poem.html">小诗</a>
-                        <div class="cover" style="background-image:url(/0.0/images/autumn.jpg);"></div>
-                        <section class="preview">旧时少年...</section>
-                        <section class="info">
-                            <span class="avatar" style="background-image: url(/0.0/images/lily.jpeg);"></span>
-                            <a class="name" href="/0.0/about.me.html">榴白</a>
-                            <span class="date" data-time="1440812520">
-                                <span class="from"></span>
-                                <span class="date" data-time="1440848520">(<span class="from"></span> 更新)</span>
-                            </span>
-                            <span class="tags">
-                            <a class="tag" href="/0.0/tag/poem/index.html">poem</a>
-                            </span>
-                        </section>
-                    </li>
-                    
-                    <li class="article">
-                        <a class="title" href="/0.0/post/2015/08/27/%e6%97%a5%e8%ae%b0.html">日记</a>
-                        <div class="cover" style="background-image:url(/0.0/images/ocean.jpg);"></div>
-                        <section class="preview">生活总是让我们遍体鳞伤，但到后来，那些受伤的地方一定会变成我们最强壮的地方。——《老人与海》...</section>
-                        <section class="info">
-                            <span class="avatar" style="background-image: url(/0.0/images/lily.jpeg);"></span>
-                            <a class="name" href="/0.0/about.me.html">榴白</a>
-                            <span class="date" data-time="1440639960">
-                                <span class="from"></span>
-                                <span class="date" data-time="1440639960">(<span class="from"></span> 更新)</span>
-                            </span>
-                            <span class="tags">
-                            <a class="tag" href="/0.0/tag/%e6%97%a5%e8%ae%b0/index.html">日记</a>
-                            </span>
-                        </section>
-                    </li>
-                    
-                    <li class="article">
-                        <a class="title" href="/0.0/post/2015/08/26/github_blog.html">用github搭建博客</a>
-                        
-                        <section class="preview">将你的github仓库部署到github pages...</section>
-                        <section class="info">
-                            <span class="avatar" style="background-image: url(/0.0/images/lily.jpeg);"></span>
-                            <a class="name" href="/0.0/about.me.html">榴白</a>
-                            <span class="date" data-time="1440579240">
-                                <span class="from"></span>
-                                <span class="date" data-time="1440579240">(<span class="from"></span> 更新)</span>
-                            </span>
-                            <span class="tags">
-                            <a class="tag" href="/0.0/tag/git/index.html">git</a>
-                            </span>
-                        </section>
-                    </li>
-                    
-                    <li class="article">
-                        <a class="title" href="/0.0/post/2015/03/01/ink-blog-tool.html">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</a>
-                        <div class="cover" style="background-image:url(/0.0/images/example.png);"></div>
+                        <a class="title" href="/post/2015/03/01/ink-blog-tool.html">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</a>
+                        <div class="cover" style="background-image:url(/images/example.png);"></div>
                         <section class="preview">纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。优点是无依赖跨平台，配置简单构建快速，注重简洁易用与排版优化...</section>
                         <section class="info">
-                            <span class="avatar" style="background-image: url(/0.0/images/lily.jpeg);"></span>
-                            <a class="name" href="/0.0/about.me.html">榴白</a>
+                            <span class="avatar" style="background-image: url(/images/lily.jpeg);"></span>
+                            <a class="name" href="/about.me.html">榴白</a>
                             <span class="date" data-time="1425204000">
                                 <span class="from"></span>
-                                <span class="date" data-time="1435975200">(<span class="from"></span> 更新)</span>
+                                <span class="date" data-time="1446775200">(<span class="from"></span> 更新)</span>
                             </span>
                             <span class="tags">
-                            <a class="tag" href="/0.0/tag/linux/index.html">linux</a><a class="tag" href="/0.0/tag/golang/index.html">golang</a>
+                            <a class="tag" href="/tag/%e8%ae%be%e8%ae%a1/index.html">设计</a><a class="tag" href="/tag/%e5%86%99%e4%bd%9c/index.html">写作</a>
+                            </span>
+                        </section>
+                    </li>
+                    
+                    <li class="article">
+                        <a class="title" href="/post/2015/03/01/ink-blog-tool-en.html">An Elegant Static Blog Generator —— InkPaper</a>
+                        <div class="cover" style="background-image:url(/images/example-en.png);"></div>
+                        <section class="preview">InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme...</section>
+                        <section class="info">
+                            <span class="avatar" style="background-image: url(/images/lily.jpeg);"></span>
+                            <a class="name" href="/about.me.html">榴白</a>
+                            <span class="date" data-time="1425200400">
+                                <span class="from"></span>
+                                <span class="date" data-time="1446775200">(<span class="from"></span> 更新)</span>
+                            </span>
+                            <span class="tags">
+                            <a class="tag" href="/tag/Design/index.html">Design</a><a class="tag" href="/tag/Writing/index.html">Writing</a>
                             </span>
                         </section>
                     </li>
@@ -132,6 +91,5 @@
 </footer>
 
     </body>
-    <script src="/0.0/js/jquery-1.11.2.min.js"></script>
-    <script src="/0.0/js/index.js"></script>
+    <script src="/bundle/index.js"></script>
 </html>
