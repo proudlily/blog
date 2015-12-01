@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
+        <meta name="keywords" content="git,">
+        <meta name="description" content="用github搭建博客过程">
+        <link rel="stylesheet" href="http://proudlily.github.io/0.0//bundle/index.css">
+        <title>用github搭建博客过程</title>
+    </head>
+    <body>
+        <article class="container">
+            <a class="index" href="http://proudlily.github.io/0.0//">榴白の杂记 · 手扎</a>
+<ul class="menu">
+    <li class="menu-item"><a href="http://proudlily.github.io/0.0//archive.html">归档</a></li>
+    <li class="menu-item"><a href="http://proudlily.github.io/0.0//tag.html">标签</a></li>
+    
+</ul>
+<script type="text/javascript">
+    conn = new WebSocket('ws://' + location.host + '/live');
+    conn.onmessage = function(event) {
+        if (event.data === 'change') {
+            setTimeout(function() {
+                window.location.reload();
+            }, 100);
+        }
+    }
+</script>
+
+            <article class="main article">
+                <h1 class="title">用github搭建博客过程</h1>
+                <section class="info">
+                    <span class="avatar" style="background-image: url(http://proudlily.github.io/0.0//images/lily.jpeg);"></span>
+                    <a class="name" href="http://proudlily.github.io/0.0//about.me.html">榴白</a>
+                    <span class="date" data-time="1438423200">
+                        <span class="from"></span>
+                        <span class="date" data-time="1438826400">(<span class="from"></span> 更新)</span>
+                    </span>
+                    <span class="tags"><a class="tag" href="http://proudlily.github.io/0.0//tag/git/index.html">git</a></span>
+                </section>
+                <article class="content"><p>###</p>
+</article>
+                <section class="author">
+                    <div class="avatar" style="background-image: url(http://proudlily.github.io/0.0//images/lily.jpeg);"></div>
+                    <a class="name" href="http://proudlily.github.io/0.0//about.me.html">榴白</a>
+                    <div class="intro">....</div>
+                </section>
+                <section class="recommend">
+                    
+                    
+                    <section class="nav next">
+                        <div class="head">下篇文章</div>
+                        <a class="link" href="http://proudlily.github.io/0.0//post/2015/08/01/%e5%b0%8f%e8%af%97.html">用github搭建博客过程</a>
+                    </section>
+                    
+                </section>
+                <section id="disqus_thread"></section>
+            </article>
+        </article>
+        <footer class="footer">
+    <span class="copyright">
+        榴白の杂记 · 手扎 ©
+        <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script>
+    </span>
+    <span class="publish">Powered by <a href="http://www.inkpaper.io/" target="_blank">Ink</a></span>
+</footer>
+
+        <script src="http://proudlily.github.io/0.0//bundle/index.js"></script>
+    </body>
+    
+    <script type="text/javascript">
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//annqlm.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    
+</html>
