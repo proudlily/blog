@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
-  <id>http://www.inkpaper.io/blog/</id>
-  <updated>2015-12-01T09:39:14+08:00</updated>
+  <id>http://proudlily.github.io/0.0/</id>
+  <updated>2015-12-01T09:48:04+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
-  <link href="http://www.inkpaper.io/blog/"></link>
+  <link href="http://proudlily.github.io/0.0/"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
   <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
     <updated>2015-11-06T10:00:00+08:00</updated>
-    <id>tag:,2015-11-06:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html</id>
+    <id>tag:,2015-11-06:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool.html</id>
     <content type="html">纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。优点是无依赖跨平台，配置简单构建快速，注重简洁易用与排版优化</content>
-    <link href="http:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool.html"></link>
+    <link href="http:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool.html"></link>
     <author>
       <name>榴白</name>
     </author>
@@ -20,9 +20,9 @@
   <entry>
     <title>An Elegant Static Blog Generator —— InkPaper</title>
     <updated>2015-11-06T10:00:00+08:00</updated>
-    <id>tag:,2015-11-06:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool-en.html</id>
+    <id>tag:,2015-11-06:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool-en.html</id>
     <content type="html">InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme</content>
-    <link href="http:/www.inkpaper.io/blog/post/2015/03/01/ink-blog-tool-en.html"></link>
+    <link href="http:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool-en.html"></link>
     <author>
       <name>榴白</name>
     </author>
