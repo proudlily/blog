@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
-  <id>http://www.inkpaper.io/blog</id>
-  <updated>2015-11-30T18:42:45+08:00</updated>
+  <id>http://www.inkpaper.io/blog/</id>
+  <updated>2015-12-01T09:39:14+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
-  <link href="http://www.inkpaper.io/blog"></link>
+  <link href="http://www.inkpaper.io/blog/"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
