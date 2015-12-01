@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
   <id>http://proudlily.github.io/0.0</id>
-  <updated>2015-12-01T11:44:32+08:00</updated>
+  <updated>2015-12-01T12:20:56+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
   <link href="http://proudlily.github.io/0.0"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
+  <entry>
+    <title>只道是平常...</title>
+    <updated>2015-09-12T10:00:00+08:00</updated>
+    <id>tag:,2015-09-12:/proudlily.github.io/0.0/post/2015/09/10/平常.html</id>
+    <content type="html">生活让我们遍体零伤，但到后来，那些受伤的地方都将成为我们最强大的地方...</content>
+    <link href="http:/proudlily.github.io/0.0/post/2015/09/10/平常.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>小诗</title>
+    <updated>2015-09-06T10:00:00+08:00</updated>
+    <id>tag:,2015-09-06:/proudlily.github.io/0.0/post/2015/09/01/小诗.html</id>
+    <content type="html">随笔...</content>
+    <link href="http:/proudlily.github.io/0.0/post/2015/09/01/小诗.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
   <entry>
     <title>用github搭建博客过程</title>
     <updated>2015-08-06T10:00:00+08:00</updated>
@@ -18,41 +38,11 @@
     </author>
   </entry>
   <entry>
-    <title>用github搭建博客过程</title>
-    <updated>2015-08-06T10:00:00+08:00</updated>
-    <id>tag:,2015-08-06:/proudlily.github.io/0.0/post/2015/08/01/小诗.html</id>
-    <content type="html">github搭建博客的记录</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/08/01/小诗.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>用github搭建博客过程</title>
-    <updated>2015-08-06T10:00:00+08:00</updated>
-    <id>tag:,2015-08-06:/proudlily.github.io/0.0/post/2015/08/01/平常.html</id>
-    <content type="html">github搭建博客的记录</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/08/01/平常.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
     <updated>2015-11-06T10:00:00+08:00</updated>
     <id>tag:,2015-11-06:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool.html</id>
     <content type="html">纸小墨（InkPaper）是一个使用GO语言编写的静态博客构建工具，可以快速搭建博客网站。优点是无依赖跨平台，配置简单构建快速，注重简洁易用与排版优化</content>
     <link href="http:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>An Elegant Static Blog Generator —— InkPaper</title>
-    <updated>2015-11-06T10:00:00+08:00</updated>
-    <id>tag:,2015-11-06:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool-en.html</id>
-    <content type="html">InkPaper is an static blog generator developed by Golang, No dependencies, Cross platform, Easy use, Fast build, Elegant theme</content>
-    <link href="http:/proudlily.github.io/0.0/post/2015/03/01/ink-blog-tool-en.html"></link>
     <author>
       <name>榴白</name>
     </author>
