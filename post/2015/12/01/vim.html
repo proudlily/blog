@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=1">
-        <meta name="keywords" content="git,">
-        <meta name="description" content="用github搭建博客过程">
+        <meta name="keywords" content="vim,">
+        <meta name="description" content="vim学习笔记 (不定期更新)">
         <link rel="stylesheet" href="/bundle/index.css">
-        <title>用github搭建博客过程</title>
+        <title>vim学习笔记 (不定期更新)</title>
     </head>
     <body>
         <article class="container">
@@ -29,44 +29,72 @@
 </script>
 
             <article class="main article">
-                <h1 class="title">用github搭建博客过程</h1>
+                <h1 class="title">vim学习笔记 (不定期更新)</h1>
                 <section class="info">
                     <span class="avatar" style="background-image: url(/images/lily.jpeg);"></span>
                     <a class="name" href="/about.me.html">榴白</a>
-                    <span class="date" data-time="1438423200">
+                    <span class="date" data-time="1448935200">
                         <span class="from"></span>
-                        <span class="date" data-time="1438826400">(<span class="from"></span> 更新)</span>
+                        <span class="date" data-time="1448938800">(<span class="from"></span> 更新)</span>
                     </span>
-                    <span class="tags"><a class="tag" href="/tag/git/index.html">git</a></span>
+                    <span class="tags"><a class="tag" href="/tag/vim/index.html">vim</a></span>
                 </section>
-                <article class="content"><h3>开始上手</h3>
+                <article class="content"><h2>vim的配置</h2>
 
-<ol>
-<li>用<a href="http://www.inkpaper.io">Ink</a>,生成静态的html.</li>
-<li>申请<a href="http://github.com">github的帐号</a></li>
-<li>在github上，申请博客的帐号。这个可以百度地到。</li>
-<li>下面是比较重要的部分，网上没有讲到的。
+<h2>vim的快捷键</h2>
+
+<h3>vim的窗口大小</h3>
 
 <ul>
-<li><code>$ git branch gh-pages</code>,新建gh-pages分支</li>
-<li><code>$ git checkout gh-pages</code>,切换到 gh-pages分支</li>
-<li><code>$ git rm -rf .</code>,清空gh-pages内的内容</li>
-<li><code>$ git add .</code>,跟踪自己定义的文件</li>
-<li><code>$ git commit -m &quot;...&quot;</code>,提交本次的修改</li>
-<li><code>$ git checkout -b gh-pages origin/gh-pages</code> 切换分支（可以不做）</li>
-<li><code>$ git push origin gh-pages</code> 远程更新</li>
-</ul></li>
-</ol>
+<li>横向窗口
+增加  <code>
+减少</code></li>
+<li>竖向窗口
+增加  <code>:resize +20</code>
+减少  <code>resize -20</code></li>
+</ul>
 
-<h3>反思</h3>
+<h3>vim选择窗口</h3>
 
-<p>人要经常反省。</p>
+<ul>
+<li>向下
+<code>&lt;ctrl+w&gt;+k</code></li>
+<li>向上
+<code>&lt;ctrl+w&gt;+j</code></li>
+<li>向左
+<code>&lt;ctrl+w&gt;+h</code></li>
+<li>向右
+<code>&lt;ctrl+w&gt;+l</code></li>
+</ul>
 
-<p>比如这个<a href="http://www.cnblogs.com/yuanzm/p/3945814.html#commentform">博客</a>，把事情分析地清楚，我才懂得。也是懂得，才能清楚。不可以再一股脑地蛮干了，要耐心，静心，查资料，分析。不能做伸手党。</p>
+<h3>vim切分窗口</h3>
 
-<p>也不是你准备做什么东西，什么也准备好了，然后等你轻轻挥挥手。你就伟大了。并不是这样子的。一句话是，不要忘记自己的梦想。</p>
+<ul>
+<li>横向切分
+<code>:sp</code></li>
+<li>竖向切分
+<code>:vsp</code></li>
+</ul>
 
-<p>对于程序这条路，我的感觉是，不要怕辛苦，经常看英文文档。（你并没有做了什么，你要知道）对于前辈的话语，良药苦口利于病。反省自己是为了什么，为了完成任务么？还是。。。</p>
+<h3>vim 折叠</h3>
+
+<ul>
+<li>折叠当前行 <code>:zc</code></li>
+<li>展开当前行 <code>:zo</code></li>
+<li>在所在范围内，递归折叠所有 <code>:zC</code></li>
+<li>&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.展开&hellip; <code>:zO</code></li>
+</ul>
+
+<h3>vim 屏幕滚动</h3>
+
+<ul>
+<li>向上滚动 <code>CTRL -U</code></li>
+<li>向下滚动  <code>CTRL -D</code></li>
+</ul>
+
+<h2>vim键盘工具</h2>
+
+<h3>目录浏览器 nerdtree</h3>
 </article>
                 <section class="author">
                     <div class="avatar" style="background-image: url(/images/lily.jpeg);"></div>
@@ -77,13 +105,13 @@
                     
                     <section class="nav prev more">
                         <div class="head">上篇文章</div>
-                        <a class="link" href="/post/2015/09/01/%e5%b0%8f%e8%af%97.html">小诗</a>
+                        <a class="link" href="/post/2015/12/03/%e5%8f%8d%e6%80%9d.html">反思</a>
                     </section>
                     
                     
                     <section class="nav next more">
                         <div class="head">下篇文章</div>
-                        <a class="link" href="/post/2015/03/01/ink-blog-tool.html">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</a>
+                        <a class="link" href="/post/2015/09/10/%e5%b9%b3%e5%b8%b8.html">只道是平常...</a>
                     </section>
                     
                 </section>
