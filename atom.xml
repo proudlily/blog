@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
   <id>http://proudlily.github.io/0.0/</id>
-  <updated>2015-12-03T16:36:51+08:00</updated>
+  <updated>2016-03-22T23:32:04+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
   <link href="http://proudlily.github.io/0.0/"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
+  <entry>
+    <title>个人简历</title>
+    <updated>2016-03-22T18:00:00+08:00</updated>
+    <id>tag:,2016-03-22:/proudlily.github.io/0.0/post/2016/03/22/个人简历.html</id>
+    <content type="html"></content>
+    <link href="http:/proudlily.github.io/0.0/post/2016/03/22/个人简历.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
   <entry>
     <title>反思</title>
     <updated>2015-12-03T10:00:00+08:00</updated>
