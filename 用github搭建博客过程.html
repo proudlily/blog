@@ -45,10 +45,10 @@
 </script>
 
 
-        <meta name="keywords" content="">
-        <meta name="description" content="关于作者">
+        <meta name="keywords" content="git,">
+        <meta name="description" content="用github搭建博客过程">
         <meta name="author" content="榴白">
-        <title>关于作者</title>
+        <title>用github搭建博客过程</title>
     </head>
     <body>
         <article class="container">
@@ -65,20 +65,34 @@
 </header>
 
             <article class="main article">
-                <h1 class="title">关于作者</h1>
+                <h1 class="title">用github搭建博客过程</h1>
                 <section class="info">
                     <span class="avatar" style="background-image: url(/images/avatar.png);"></span>
                     <a class="name" href="/about.me.html">榴白</a>
                     
-                    <span class="date" data-time="0"><span class="from"></span></span>
+                    <span class="date" data-time="1436605200"><span class="from"></span></span>
                     
-                    <span class="tags"></span>
+                    <span class="tags"><a class="tag" href="/tag/git/index.html">git</a></span>
                 </section>
-                <article class="content"><h2>榴白</h2>
+                <article class="content"><h3>开始上手</h3>
 
-<p>上帝若喜欢一个人，会亲手把他的心打碎；上帝拯救一个人之前，总是先将他推下悬崖。</p>
+<ul>
+<li>用Ink,生成静态的html.</li>
+<li>申请github的帐号</li>
+<li>在github上，申请博客的帐号。这个可以百度地到。</li>
+</ul>
 
-<p><a href="http://proudlily.github.io/0.0/">http://proudlily.github.io/0.0/</a></p>
+<h3>下面是比较重要的部分，网上没有讲到的。</h3>
+
+<ul>
+<li><code>git branch gh-pages</code> 新建gh-pages分支</li>
+<li><code>git checkout gh-pages</code> 切换到 gh-pages分支</li>
+<li><code>git rm -rf .</code> 清空gh-pages内的内容</li>
+<li><code>git add .</code> 跟踪自己定义的文件</li>
+<li><code>git commit -m &quot;...&quot;</code> 提交本次的修改</li>
+<li><code>git checkout -b gh-pages origin/gh-pages</code> 切换分支（可以不做）</li>
+<li><code>git push origin gh-pages</code> 远程更新</li>
+</ul>
 </article>
                 <section class="author">
                     <div class="avatar" style="background-image: url(/images/avatar.png);"></div>
@@ -87,6 +101,16 @@
                 </section>
                 <section class="recommend">
                     
+                    <section class="nav prev more">
+                        <div class="head">上篇文章</div>
+                        <a class="link" href="/%e5%b0%8f%e8%af%97.html">小诗</a>
+                    </section>
+                    
+                    
+                    <section class="nav next more">
+                        <div class="head">下篇文章</div>
+                        <a class="link" href="/ink-blog-tool.html">简洁的静态博客构建工具 —— 纸小墨（InkPaper）</a>
+                    </section>
                     
                 </section>
                 
