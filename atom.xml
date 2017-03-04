@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
   <id>http://proudlily.github.io/0.0</id>
-  <updated>2017-02-03T17:02:36+08:00</updated>
+  <updated>2017-03-04T20:30:32+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
   <link href="http://proudlily.github.io/0.0"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
+  <entry>
+    <title>厦门</title>
+    <updated>2017-03-04T19:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2017-03-04:/0.0/2017.3.4.html</id>
+    <content type="html"></content>
+    <link href="http://proudlily.github.io/0.0/2017.3.4.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>踏血寻梅</title>
+    <updated>2017-02-03T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2017-02-03:/0.0/2017.2.3.html</id>
+    <content type="html"></content>
+    <link href="http://proudlily.github.io/0.0/2017.2.3.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
   <entry>
     <title>2016年总结</title>
     <updated>2016-12-31T17:00:00+08:00</updated>
@@ -18,11 +38,21 @@
     </author>
   </entry>
   <entry>
-    <title>2月3日2017年</title>
-    <updated>2017-02-03T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2017-02-03:/0.0/2.3.2016.html</id>
+    <title>只道是平常...</title>
+    <updated>2016-09-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2016-09-11:/0.0/只道是平常....html</id>
+    <content type="html">&lt;p&gt;生活让我们遍体零伤，但到后来，那些受伤的地方都将成为我们最强大的地方&amp;hellip;&amp;hellip;&lt;/p&gt;&#xA;</content>
+    <link href="http://proudlily.github.io/0.0/只道是平常....html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>用github搭建博客过程</title>
+    <updated>2016-07-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2016-07-11:/0.0/用github搭建博客过程.html</id>
     <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/2.3.2016.html"></link>
+    <link href="http://proudlily.github.io/0.0/用github搭建博客过程.html"></link>
     <author>
       <name>榴白</name>
     </author>
@@ -38,31 +68,11 @@
     </author>
   </entry>
   <entry>
-    <title>只道是平常...</title>
-    <updated>2015-09-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2015-09-11:/0.0/只道是平常....html</id>
-    <content type="html">&lt;p&gt;生活让我们遍体零伤，但到后来，那些受伤的地方都将成为我们最强大的地方&amp;hellip;&amp;hellip;&lt;/p&gt;&#xA;</content>
-    <link href="http://proudlily.github.io/0.0/只道是平常....html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
     <title>小诗</title>
-    <updated>2015-09-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2015-09-11:/0.0/小诗.html</id>
+    <updated>2016-09-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2016-09-11:/0.0/小诗.html</id>
     <content type="html"></content>
     <link href="http://proudlily.github.io/0.0/小诗.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>用github搭建博客过程</title>
-    <updated>2015-07-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2015-07-11:/0.0/用github搭建博客过程.html</id>
-    <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/用github搭建博客过程.html"></link>
     <author>
       <name>榴白</name>
     </author>
