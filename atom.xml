@@ -1,76 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>榴白の杂记 · 手扎</title>
   <id>http://proudlily.github.io/0.0</id>
-  <updated>2017-03-04T20:30:32+08:00</updated>
+  <updated>2017-09-12T16:53:59+08:00</updated>
   <subtitle>talk is less,show me the code!</subtitle>
   <link href="http://proudlily.github.io/0.0"></link>
   <author>
     <name>榴白の杂记 · 手扎</name>
   </author>
   <entry>
-    <title>厦门</title>
-    <updated>2017-03-04T19:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2017-03-04:/0.0/2017.3.4.html</id>
+    <title>2016年总结</title>
+    <updated>2016-12-31T21:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2016-12-31:/0.0/2016年总结.html</id>
     <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/2017.3.4.html"></link>
+    <link href="http://proudlily.github.io/0.0/2016年总结.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>厦门</title>
+    <updated>2016-07-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2016-07-11:/0.0/厦门.html</id>
+    <content type="html"></content>
+    <link href="http://proudlily.github.io/0.0/厦门.html"></link>
     <author>
       <name>榴白</name>
     </author>
   </entry>
   <entry>
     <title>踏血寻梅</title>
-    <updated>2017-02-03T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2017-02-03:/0.0/2017.2.3.html</id>
-    <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/2017.2.3.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>2016年总结</title>
-    <updated>2016-12-31T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2016-12-31:/0.0/2016.12.31.html</id>
-    <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/2016.12.31.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>只道是平常...</title>
-    <updated>2016-09-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2016-09-11:/0.0/只道是平常....html</id>
-    <content type="html">&lt;p&gt;生活让我们遍体零伤，但到后来，那些受伤的地方都将成为我们最强大的地方&amp;hellip;&amp;hellip;&lt;/p&gt;&#xA;</content>
-    <link href="http://proudlily.github.io/0.0/只道是平常....html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>用github搭建博客过程</title>
     <updated>2016-07-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2016-07-11:/0.0/用github搭建博客过程.html</id>
+    <id>tag:proudlily.github.io,2016-07-11:/0.0/踏血寻梅.html</id>
     <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/用github搭建博客过程.html"></link>
-    <author>
-      <name>榴白</name>
-    </author>
-  </entry>
-  <entry>
-    <title>如风</title>
-    <updated>2016-09-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2016-09-11:/0.0/wind.html</id>
-    <content type="html">&lt;p&gt;认识熊晨菲是在2014年的11月。我记不太清楚了。那是我工作的第一家公司。&lt;/p&gt;&#xA;</content>
-    <link href="http://proudlily.github.io/0.0/wind.html"></link>
+    <link href="http://proudlily.github.io/0.0/踏血寻梅.html"></link>
     <author>
       <name>榴白</name>
     </author>
   </entry>
   <entry>
     <title>小诗</title>
-    <updated>2016-09-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2016-09-11:/0.0/小诗.html</id>
+    <updated>2015-09-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2015-09-11:/0.0/小诗.html</id>
     <content type="html"></content>
     <link href="http://proudlily.github.io/0.0/小诗.html"></link>
     <author>
@@ -78,9 +48,39 @@
     </author>
   </entry>
   <entry>
+    <title>只道是平常</title>
+    <updated>2015-07-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2015-07-11:/0.0/只道是平常.html</id>
+    <content type="html">&lt;p&gt;生活让我们遍体零伤，但到后来，那些受伤的地方都将成为我们最强大的地方……&lt;/p&gt;&#xA;</content>
+    <link href="http://proudlily.github.io/0.0/只道是平常.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>用github搭建blog的过程</title>
+    <updated>2015-05-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2015-05-11:/0.0/用github搭建blog的过程.html</id>
+    <content type="html"></content>
+    <link href="http://proudlily.github.io/0.0/用github搭建blog的过程.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
+    <title>如风</title>
+    <updated>2015-07-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2015-07-11:/0.0/如风.html</id>
+    <content type="html">&lt;p&gt;认识熊晨菲是在2014年的11月。我记不太清楚了。那是我工作的第一家公司。&lt;/p&gt;&#xA;</content>
+    <link href="http://proudlily.github.io/0.0/如风.html"></link>
+    <author>
+      <name>榴白</name>
+    </author>
+  </entry>
+  <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
-    <updated>2014-07-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2014-07-11:/0.0/ink-blog-tool.html</id>
+    <updated>2015-02-11T17:00:00+08:00</updated>
+    <id>tag:proudlily.github.io,2015-02-11:/0.0/ink-blog-tool.html</id>
     <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
     <link href="http://proudlily.github.io/0.0/ink-blog-tool.html"></link>
     <author>
