@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>云海の杂记 · 手扎</title>
-  <id>http://proudlily.github.io/0.0</id>
-  <updated>2020-06-04T21:41:44+08:00</updated>
+  <id>http://proudlily.github.io/blog</id>
+  <updated>2020-06-04T21:44:45+08:00</updated>
   <subtitle>蔷薇</subtitle>
-  <link href="http://proudlily.github.io/0.0"></link>
+  <link href="http://proudlily.github.io/blog"></link>
   <author>
     <name>云海の杂记 · 手扎</name>
   </author>
   <entry>
     <title>用github搭建blog的过程</title>
     <updated>2015-05-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2015-05-11:/0.0/用github搭建blog的过程.html</id>
+    <id>tag:proudlily.github.io,2015-05-11:/blog/用github搭建blog的过程.html</id>
     <content type="html"></content>
-    <link href="http://proudlily.github.io/0.0/用github搭建blog的过程.html"></link>
+    <link href="http://proudlily.github.io/blog/用github搭建blog的过程.html"></link>
     <author>
       <name>云海</name>
     </author>
@@ -20,9 +20,9 @@
   <entry>
     <title>简洁的静态博客构建工具 —— 纸小墨（InkPaper）</title>
     <updated>2015-02-11T17:00:00+08:00</updated>
-    <id>tag:proudlily.github.io,2015-02-11:/0.0/ink-blog-tool.html</id>
+    <id>tag:proudlily.github.io,2015-02-11:/blog/ink-blog-tool.html</id>
     <content type="html">&lt;p&gt;纸小墨（InkPaper）是一个GO语言编写的开源静态博客构建工具，可以快速搭建博客网站。它无依赖跨平台，配置简单构建快速，注重简洁易用与更优雅的排版。&lt;/p&gt;&#xA;</content>
-    <link href="http://proudlily.github.io/0.0/ink-blog-tool.html"></link>
+    <link href="http://proudlily.github.io/blog/ink-blog-tool.html"></link>
     <author>
       <name>云海</name>
     </author>
